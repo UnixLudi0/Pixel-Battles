@@ -1,5 +1,5 @@
 # Pixel-Battles
-###Mod lore.
+#Mod lore.
 In the vastness of the universe, in the Milky Way, there is an exoplanet with rare minerals.
 Of the life forms, there are only pixelites that live on the surface, and beetles that live in dark caves.
 Recently, people from planet Earth have reached this planet and are watching it. The reason for their curiosity about the planet is the rare element Px (Pixel).
