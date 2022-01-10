@@ -1,0 +1,124 @@
+#ресурс, добываемый из кристаллов
+[resource_crystalPixel]
+displayName: Pixel crystal
+displayNameShort: crystal
+displayColor: #EAE2D9
+
+#не используется(на будущее)
+[resource_timer] 
+displayName: Timer
+displayNameShort: timer
+displayColor: #FFFFFF
+
+[resource_miner]
+displayName: miner
+
+[resource_lab]
+displayName: lab
+
+[resource_store] 
+displayName: store
+
+[global_resource_maxPixels]
+displayName: Maximum
+displayNameShort: MPx
+displayColor: #EDEDED
+displayRoundedDown:true
+
+[global_resource_Pixels]
+displayName: Pixels
+displayNameShort: Px
+displayColor: #EDEDED
+displayRoundedDown: true
+
+[global_resource_maxCmPixels]
+displayName: Maximum CmPx
+displayNameShort: MCmPx
+displayColor: #808080
+displayRoundedDown:true
+
+[global_resource_CmPixels]
+displayName: Compressed pixels
+displayNameShort: CmPx
+displayColor: #808080
+displayRoundedDown: true
+
+[global_resource_maxLqPixels]
+displayName: Maximum LqPx
+displayNameShort: MLqPx
+displayColor: #503066
+displayRoundedDown:true
+
+[global_resource_LqPixels]
+displayName: Liquid  pixels
+displayNameShort: LqPx
+displayColor: #503066
+displayRoundedDown: true
+
+[core]
+energyRegen:  -0.001
+
+[hiddenAction_moveE]
+autoTrigger: if self.isMoving()
+addEnergy: -0.75
+buildSpeed: 0s
+
+[hiddenAction_air]
+autoTrigger: if self.isFlying() and self.energy(lessThan=5) and not self.isEnergyEmpty()
+temporarilyAddTags: air
+temporarilyRemoveTags: airoff
+convertTo_keepCurrentTags: true
+buildSpeed: 0s
+
+[hiddenAction_airDT]
+autoTrigger: if self.isFlying() and not self.energy(lessThan=5) and not self.isEnergyEmpty()
+temporarilyRemoveTags: air
+convertTo_keepCurrentTags: true
+buildSpeed: 0s
+
+[hiddenAction_land]
+autoTrigger: if self.isAtGroundHeight() and self.energy(lessThan=5) and not self.isEnergyEmpty()
+temporarilyAddTags: land
+temporarilyRemoveTags: landoff
+convertTo_keepCurrentTags: true
+buildSpeed: 0s
+
+[hiddenAction_landDT]
+autoTrigger: if self.isAtGroundHeight() and not self.energy(lessThan=5) and not self.isEnergyEmpty()
+temporarilyRemoveTags: land
+convertTo_keepCurrentTags: true
+buildSpeed: 0s
+
+[hiddenAction_water]
+autoTrigger: if self.isInWater() and self.energy(lessThan=5) and not self.isEnergyEmpty()
+temporarilyRemoveTags: wateroff
+convertTo_keepCurrentTags: true
+buildSpeed: 0s
+
+[hiddenAction_waterDT]
+autoTrigger: if self.isInWater() and not self.energy(lessThan=5) and not self.isEnergyEmpty()
+temporarilyRemoveTags: water
+convertTo_keepCurrentTags: true
+buildSpeed: 0s
+
+[hiddenAction_airOff]
+autoTrigger: if self.tags(includes='air') and self.isEnergyEmpty() 
+temporarilyAddTags: airoff
+temporarilyRemoveTags: air
+convertTo_keepCurrentTags: true
+buildSpeed: 0s
+
+
+[hiddenAction_landOff]
+autoTrigger: if self.tags(includes='land') and self.isEnergyEmpty() 
+temporarilyRemoveTags: land
+temporarilyAddTags: landoff
+convertTo_keepCurrentTags: true
+buildSpeed: 0s
+
+[hiddenAction_waterOff]
+autoTrigger: if self.tags(includes='water') and self.isEnergyEmpty() 
+temporarilyAddTags: wateroff
+temporarilyRemoveTags: water
+convertTo_keepCurrentTags: true
+buildSpeed: 0s
