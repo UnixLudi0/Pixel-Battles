@@ -23,7 +23,7 @@ displayName: store
 displayName: Maximum
 displayNameShort: MPx
 displayColor: #EDEDED
-displayRoundedDown:true
+displayRoundedDown: true
 
 [global_resource_Pixels]
 displayName: Pixels
@@ -35,7 +35,7 @@ displayRoundedDown: true
 displayName: Maximum CmPx
 displayNameShort: MCmPx
 displayColor: #808080
-displayRoundedDown:true
+displayRoundedDown: true
 
 [global_resource_CmPixels]
 displayName: Compressed pixels
@@ -47,12 +47,24 @@ displayRoundedDown: true
 displayName: Maximum LqPx
 displayNameShort: MLqPx
 displayColor: #503066
-displayRoundedDown:true
+displayRoundedDown: true
 
 [global_resource_LqPixels]
 displayName: Liquid  pixels
 displayNameShort: LqPx
 displayColor: #503066
+displayRoundedDown: true
+
+[global_resource_maxBuildings]
+displayName: Maximum Buildings
+displayNameShort: MBuildings
+displayColor: #dddddd
+displayRoundedDown: true
+
+[global_resource_Buildings]
+displayName: Buildings
+displayNameShort: MB
+displayColor: #dddddd
 displayRoundedDown: true
 
 [core]
