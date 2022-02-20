@@ -1,6 +1,6 @@
 # Pixel-Battles. Rusted Warfare modification.
-Minimal Rusted Warfare verion: 1.14
-Mod type: Total Converse
+### Minimal Rusted Warfare version: 1.14
+### Mod type: Total Converse
 ### Mod lore.
 - In the vastness of the universe, in the Milky Way, there is an exoplanet with rare minerals.
 - Of the life forms, there are only pixelites that live on the surface, and beetles that live in dark caves.
