@@ -1,3 +1,3 @@
 [mod]
-title: PixelBattles 0.6.3.15
-description: Mine pixels,\n Build armies,\n Store resources and charge units,\n Fight with each other, but do not let the fiends of the deep caves conquer you!.\n Authors:\n-UnixLudi0 \n and other
+title: PixelBattles 0.6.3.16
+description: Avaiables: \n -Pixels mining\n -Building armies\n Store resources and charge units,\n -Creep and dangerous creatures\n Mod by UnixLudi0
