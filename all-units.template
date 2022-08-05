@@ -23,49 +23,57 @@ displayName: store
 displayName: Maximum
 displayNameShort: MPx
 displayColor: #EDEDED
-displayRoundedDown: true
+displayWhenZero: true
+displayPos: 0
 
 [global_resource_Pixels]
 displayName: Pixels
 displayNameShort: Px
 displayColor: #EDEDED
-displayRoundedDown: true
+displayWhenZero: true
+displayPos: 1
 
 [global_resource_maxCmPixels]
 displayName: Maximum CmPx
 displayNameShort: MCmPx
 displayColor: #808080
-displayRoundedDown: true
+displayWhenZero: true
+displayPos: 2
 
 [global_resource_CmPixels]
 displayName: Compressed pixels
 displayNameShort: CmPx
 displayColor: #808080
-displayRoundedDown: true
+displayWhenZero: true
+displayPos: 3
 
 [global_resource_maxLqPixels]
 displayName: Maximum LqPx
 displayNameShort: MLqPx
 displayColor: #503066
-displayRoundedDown: true
+displayWhenZero: true
+displayPos: 4
 
 [global_resource_LqPixels]
 displayName: Liquid  pixels
 displayNameShort: LqPx
 displayColor: #503066
-displayRoundedDown: true
+displayWhenZero: true
+displayPos: 5
 
 [global_resource_maxBuildings]
 displayName: Maximum Buildings
 displayNameShort: MBuildings
 displayColor: #dddddd
-displayRoundedDown: true
+displayWhenZero: true
+displayPos: 6
 
 [global_resource_Buildings]
 displayName: Buildings
 displayNameShort: MB
 displayColor: #dddddd
-displayRoundedDown: true
+displayWhenZero: true
+displayPos: 7
 
 [core]
 energyRegen:  -0.001
@@ -134,3 +142,7 @@ temporarilyAddTags: wateroff
 temporarilyRemoveTags: water
 convertTo_keepCurrentTags: true
 buildSpeed: 0s
+
+[hiddenAction_repair]
+autoTrigger: if numberOfUnitsInTeam(withTag='repairer', greaterThan=0, withinRange=100) or numberOfUnitsInAllyTeam(withTag='repairer', greaterThan=0, withinRange=100)
+setUnitStats: hp+=4
