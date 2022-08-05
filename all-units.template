@@ -13,8 +13,8 @@ displayColor: #FFFFFF
 [resource_miner]
 displayName: miner
 
-[resource_lab]
-displayName: lab
+[resource_connection]
+displayName: connection
 
 [resource_store] 
 displayName: store
@@ -74,6 +74,9 @@ displayNameShort: MB
 displayColor: #dddddd
 displayWhenZero: true
 displayPos: 7
+
+[global_resource_NegativeCredits]
+hidden: true
 
 [core]
 energyRegen:  -0.001
