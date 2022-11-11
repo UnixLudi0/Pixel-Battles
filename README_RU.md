@@ -1,4 +1,4 @@
-[EN version](https://github.com/UnixLudi0/Pixel-Battles/main/README.md)
+[EN version](https://github.com/UnixLudi0/Pixel-Battles/blob/main/README.md)
 # Пиксельные битвы. Модификация Rusted Warfare.
 ### Минимальная версия Rusted Warfare: 1.15p6
 ### Тип мода: Total Converse
