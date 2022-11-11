@@ -1,3 +1,4 @@
+[RU version](https://github.com/UnixLudi0/Pixel-Battles/main/README.md)
 # Pixel-Battles. Rusted Warfare modification.
 ### Minimal Rusted Warfare version: 1.14
 ### Mod type: Total Converse
