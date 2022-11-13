@@ -19,18 +19,28 @@ displayName: connection
 [resource_store] 
 displayName: store
 
-[global_resource_maxPixels]
-displayName: Maximum
-displayNameShort: MPx
-displayColor: #EDEDED
-displayWhenZero: true
-displayPos: 0
-
 [global_resource_Pixels]
 displayName: Pixels
 displayNameShort: Px
 displayColor: #EDEDED
 displayWhenZero: true
+appendResourceInHUD: maxPixels
+displayPos: 0
+
+[global_resource_maxPixels]
+displayName: Maximum
+displayNameShort: MPx
+displayColor: #EDEDED
+displayWhenZero: true
+displayTextPrefix: / 
+hidden:true
+
+[global_resource_CmPixels]
+displayName: Compressed pixels
+displayNameShort: CmPx
+displayColor: #808080
+displayWhenZero: true
+appendResourceInHUD: maxCmPixels
 displayPos: 1
 
 [global_resource_maxCmPixels]
@@ -38,42 +48,41 @@ displayName: Maximum CmPx
 displayNameShort: MCmPx
 displayColor: #808080
 displayWhenZero: true
-displayPos: 2
-
-[global_resource_CmPixels]
-displayName: Compressed pixels
-displayNameShort: CmPx
-displayColor: #808080
-displayWhenZero: true
-displayPos: 3
-
-[global_resource_maxLqPixels]
-displayName: Maximum LqPx
-displayNameShort: MLqPx
-displayColor: #503066
-displayWhenZero: true
-displayPos: 4
+displayTextPrefix: / 
+hidden:true
 
 [global_resource_LqPixels]
 displayName: Liquid  pixels
 displayNameShort: LqPx
 displayColor: #503066
 displayWhenZero: true
-displayPos: 5
+appendResourceInHUD: maxLqPixels
+displayPos: 2
 
-[global_resource_maxBuildings]
-displayName: Maximum Buildings
-displayNameShort: MBuildings
-displayColor: #dddddd
+
+[global_resource_maxLqPixels]
+displayName: Maximum LqPx
+displayNameShort: MLqPx
+displayColor: #503066
 displayWhenZero: true
-displayPos: 6
+displayTextPrefix: / 
+hidden:true
 
 [global_resource_Buildings]
 displayName: Buildings
 displayNameShort: MB
 displayColor: #dddddd
 displayWhenZero: true
-displayPos: 7
+appendResourceInHUD: maxBuildings
+displayPos: 3
+
+[global_resource_maxBuildings]
+displayName: Maximum Buildings
+displayNameShort: MBuildings
+displayColor: #dddddd
+displayWhenZero: true
+displayTextPrefix: / 
+hidden:true
 
 [global_resource_NegativeCredits]
 hidden: true
