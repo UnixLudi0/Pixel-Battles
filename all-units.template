@@ -21,14 +21,18 @@ displayName: store
 
 [global_resource_Pixels]
 displayName: Pixels
+displayName_ru: Пиксели
 displayNameShort: Px
+displayNameShort_ru: Пх
 displayColor: #EDEDED
 displayWhenZero: true
 appendResourceInHUD: maxPixels
 displayPos: 0
+displayRoundedDown: true
 
 [global_resource_maxPixels]
 displayName: Maximum
+displayName_ru: Максимум
 displayNameShort: MPx
 displayColor: #EDEDED
 displayWhenZero: true
@@ -37,14 +41,17 @@ hidden:true
 
 [global_resource_CmPixels]
 displayName: Compressed pixels
+displayName_ru: Сжатые пиксели
 displayNameShort: CmPx
 displayColor: #808080
 displayWhenZero: true
 appendResourceInHUD: maxCmPixels
 displayPos: 1
+displayRoundedDown: true
 
 [global_resource_maxCmPixels]
 displayName: Maximum CmPx
+displayName_ru: Максимум сжатых пикселей
 displayNameShort: MCmPx
 displayColor: #808080
 displayWhenZero: true
@@ -53,6 +60,7 @@ hidden:true
 
 [global_resource_LqPixels]
 displayName: Liquid  pixels
+displayName_ru: Максимум жидких пикселей
 displayNameShort: LqPx
 displayColor: #503066
 displayWhenZero: true
