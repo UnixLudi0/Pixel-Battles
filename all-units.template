@@ -60,7 +60,7 @@ hidden:true
 
 [global_resource_LqPixels]
 displayName: Liquid  pixels
-displayName_ru: Максимум жидких пикселей
+displayName_ru: Жидкие пиксели
 displayNameShort: LqPx
 displayColor: #503066
 displayWhenZero: true
@@ -70,6 +70,7 @@ displayPos: 2
 
 [global_resource_maxLqPixels]
 displayName: Maximum LqPx
+displayName_ru: Максимум жидких пикселей
 displayNameShort: MLqPx
 displayColor: #503066
 displayWhenZero: true
@@ -78,6 +79,7 @@ hidden:true
 
 [global_resource_Buildings]
 displayName: Buildings
+displayName_ru: Здания
 displayNameShort: MB
 displayColor: #dddddd
 displayWhenZero: true
@@ -86,6 +88,7 @@ displayPos: 3
 
 [global_resource_maxBuildings]
 displayName: Maximum Buildings
+displayName_ru: Максимум зданий
 displayNameShort: MBuildings
 displayColor: #dddddd
 displayWhenZero: true
@@ -96,7 +99,7 @@ hidden:true
 hidden: true
 
 [core]
-energyRegen:  -0.001
+energyRegen: -0.005
 
 [hiddenAction_moveE]
 autoTrigger: if self.isMoving()
@@ -166,3 +169,7 @@ buildSpeed: 0s
 [hiddenAction_repair]
 autoTrigger: if numberOfUnitsInTeam(withTag='repairer', greaterThan=0, withinRange=100) or numberOfUnitsInAllyTeam(withTag='repairer', greaterThan=0, withinRange=100)
 setUnitStats: hp+=4
+
+[hiddenAction_repair]
+autoTrigger: if numberOfUnitsInTeam(withTag='repairer', greaterThan=1, withinRange=100) or numberOfUnitsInAllyTeam(withTag='repairer', greaterThan=0, withinRange=100)
+setUnitStats: hp+=10
