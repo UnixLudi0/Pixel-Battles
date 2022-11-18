@@ -24,7 +24,7 @@ displayName: Pixels
 displayName_ru: Пиксели
 displayNameShort: Px
 displayNameShort_ru: Пх
-displayColor: #EDEDED
+displayColor: #BBBBBB
 displayWhenZero: true
 appendResourceInHUD: maxPixels
 displayPos: 0
@@ -34,7 +34,7 @@ displayRoundedDown: true
 displayName: Maximum
 displayName_ru: Максимум
 displayNameShort: MPx
-displayColor: #EDEDED
+displayColor: #BBBBBB
 displayWhenZero: true
 displayTextPrefix: / 
 hidden:true
@@ -43,17 +43,17 @@ hidden:true
 displayName: Compressed pixels
 displayName_ru: Сжатые пиксели
 displayNameShort: CmPx
-displayColor: #808080
+displayColor: #707070
 displayWhenZero: true
 appendResourceInHUD: maxCmPixels
 displayPos: 1
-displayRoundedDown: true
+displayRoundedDown: true 
 
 [global_resource_maxCmPixels]
 displayName: Maximum CmPx
 displayName_ru: Максимум сжатых пикселей
 displayNameShort: MCmPx
-displayColor: #808080
+displayColor: #707070
 displayWhenZero: true
 displayTextPrefix: / 
 hidden:true
@@ -62,7 +62,7 @@ hidden:true
 displayName: Liquid  pixels
 displayName_ru: Жидкие пиксели
 displayNameShort: LqPx
-displayColor: #503066
+displayColor: #111111
 displayWhenZero: true
 appendResourceInHUD: maxLqPixels
 displayPos: 2
@@ -72,7 +72,7 @@ displayPos: 2
 displayName: Maximum LqPx
 displayName_ru: Максимум жидких пикселей
 displayNameShort: MLqPx
-displayColor: #503066
+displayColor: #111111
 displayWhenZero: true
 displayTextPrefix: / 
 hidden:true
@@ -81,7 +81,7 @@ hidden:true
 displayName: Buildings
 displayName_ru: Здания
 displayNameShort: MB
-displayColor: #dddddd
+displayColor: #DDDDDD
 displayWhenZero: true
 appendResourceInHUD: maxBuildings
 displayPos: 3
@@ -90,7 +90,7 @@ displayPos: 3
 displayName: Maximum Buildings
 displayName_ru: Максимум зданий
 displayNameShort: MBuildings
-displayColor: #dddddd
+displayColor: #DDDDDD
 displayWhenZero: true
 displayTextPrefix: / 
 hidden:true
