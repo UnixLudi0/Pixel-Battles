@@ -67,7 +67,6 @@ displayWhenZero: true
 appendResourceInHUD: maxLqPixels
 displayPos: 2
 
-
 [global_resource_maxLqPixels]
 displayName: Maximum LqPx
 displayName_ru: Максимум жидких пикселей
@@ -166,10 +165,6 @@ temporarilyRemoveTags: water
 convertTo_keepCurrentTags: true
 buildSpeed: 0s
 
-[hiddenAction_repair]
-autoTrigger: if numberOfUnitsInTeam(withTag='repairer', greaterThan=0, withinRange=100) or numberOfUnitsInAllyTeam(withTag='repairer', greaterThan=0, withinRange=100)
-setUnitStats: hp+=4
-
-[hiddenAction_repair]
-autoTrigger: if numberOfUnitsInTeam(withTag='repairer', greaterThan=1, withinRange=100) or numberOfUnitsInAllyTeam(withTag='repairer', greaterThan=0, withinRange=100)
-setUnitStats: hp+=10
+[hiddenAction_repairTag]
+autoTriggerOnEvent: created
+temporarilyAddTags: notRepairer
