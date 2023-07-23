@@ -1,14 +1,7 @@
-#ресурс, добываемый из кристаллов
 [resource_crystalPixel]
 displayName: Pixel crystal
 displayNameShort: crystal
 displayColor: #EAE2D9
-
-#не используется(на будущее)
-[resource_timer] 
-displayName: Timer
-displayNameShort: timer
-displayColor: #FFFFFF
 
 [resource_miner]
 displayName: miner
@@ -16,7 +9,7 @@ displayName: miner
 [resource_connection]
 displayName: connection
 
-[resource_store] 
+[resource_store]
 displayName: store
 
 [global_resource_Pixels]
@@ -94,7 +87,11 @@ displayWhenZero: true
 displayTextPrefix: / 
 hidden:true
 
-[global_resource_NegativeCredits]
+[global_resource_SC]
+displayName: Starting Credits
+displayName_ru: Стартовые кредиты
+displayNameShort: SC
+displayColor: #000000
 hidden: true
 
 [core]
